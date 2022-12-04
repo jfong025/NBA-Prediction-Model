@@ -1,4 +1,5 @@
 import numpy as np
+import pandas as pd
 
 def expected_result(home,aw):
   dr=home-aw
@@ -30,3 +31,4 @@ def calculate_elo(elo_h,elo_aw,home_score,away_score):
 
 def soft_reset(final_elo):
     return (final_elo * 0.75) + (0.25 * 1505)
+
