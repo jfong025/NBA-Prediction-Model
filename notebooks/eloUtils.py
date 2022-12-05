@@ -1,3 +1,4 @@
+#Code adapted from this article https://medium.com/mlearning-ai/how-to-calculate-elo-score-for-international-teams-using-python-66c136f01048
 import numpy as np
 import pandas as pd
 
